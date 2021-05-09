@@ -1,5 +1,8 @@
 #Configurations blended from https://towardsdatascience.com/how-to-easily-make-beautiful-wordclouds-in-python-55789102f6f5#
 
+#Instructions
+#Take your word document and save it as a PDF and place it in the same file as the python script and or alter the path.  Ensure that you change the file name
+
 from stop_words import get_stop_words
 
 #Insert the additional stop words here#
