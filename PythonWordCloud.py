@@ -1,13 +1,17 @@
 #Configurations blended from https://towardsdatascience.com/how-to-easily-make-beautiful-wordclouds-in-python-55789102f6f5#
 
 #Instructions
-#Take your word document and save it as a PDF and place it in the same file as the python script and or alter the path.  Ensure that you change the file name to match your file
+#Take your word document and save it as a PDF or txt document and place it in the same folder as the python script and or alter the path.  Ensure that you change the file name to match your file
 #Sometimes it will take multiple times with complex word documents and formatting.
+
+#In this script comments.txt is the file that will be analyzed
 
 from stop_words import get_stop_words
 import stylecloud
 
 #Insert the additional stop words here#
+#Use this section to remove words that may clutter the picture, if you don't have any you can comment or remove these out
+
 stop_words = get_stop_words('english')
 stop_words.append('MRO')
 stop_words.append('Marine')
