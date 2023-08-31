@@ -20,7 +20,7 @@ stop_words.append('Marines')
 stop_words.append('Peer')
 stop_words.append('Concur')
 stop_words.append('Peers')
-stop_words.append('Continue'
+stop_words.append('Continue')
 stop_words.append('RS')
 stop_words.append('Detachment')
 stop_words.append('Challenge')
